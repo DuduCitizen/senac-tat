@@ -50,3 +50,5 @@ cd
 azul escuro - diretório
 marca texto verde - perigo
 azul claro - atalho
+-v
+
