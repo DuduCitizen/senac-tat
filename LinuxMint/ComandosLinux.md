@@ -42,4 +42,11 @@ O comando `sudo` (superuser do) no Linux *permite que usuários executem comando
     history
   O comando `history` no Linux exibe uma lista dos comandos recentemente executados no terminal, permitindo que o usuário veja e reutilize esses comandos.
 
-
+ls
+ls -l h a
+pwd
+cd
+/
+azul escuro - diretório
+marca texto verde - perigo
+azul claro - atalho
