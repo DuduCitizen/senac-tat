@@ -115,9 +115,28 @@ O parâmetro `-v` no Bash geralmente significa "verbose" (detalhado). ***Ele é 
 - Vermelho: ***Arquivos com permissão de execução especial*** (`setuid, setgid, sticky bit`) ***ou arquivos com erros de permissões.***
 - Amarelo: ***Dispositivos*** (arquivos especiais, como dispositivos de bloco ou caracteres, por exemplo, `/dev/sda`).
 - Cinza claro: ***Arquivos normais***(sem atributos especiais).
+#
 
+# Git
+### git clone
+    git clone [url do repositório]
+O comando `git clone` no Bash ***é usado para copiar (clonar) um repositório Git remoto para o seu computador.*** Ele cria uma cópia completa do repositório, incluindo todos os arquivos, commits e branches.
+#
 
-echo
+### git config
+    git config [opções] [chave] [valor]
+O comando `git config` no Bash ***é usado para configurar as opções do Git em diferentes níveis.*** Com ele, você pode definir configurações globais, de repositório ou do sistema que afetam o comportamento do Git.
+<br>
 
-git clone
-git config
+Exemplos de uso:
+- Definir nome de usuário
+
+        git config --global user.name "Seu Nome"
+
+- Definir e-mail do usuário
+
+        git config --global user.email "seuemail@exemplo.com"
+
+- Verificar confiurações
+
+        git config --list
