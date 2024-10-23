@@ -42,15 +42,81 @@ O comando `sudo` (superuser do) no Linux *permite que usuários executem comando
     history
   O comando `history` no Linux exibe uma lista dos comandos recentemente executados no terminal, permitindo que o usuário veja e reutilize esses comandos.
 
-ls
-ls -l h a
-pwd
-cd
-/
-azul escuro - diretório
-marca texto verde - perigo
-azul claro - atalho
--v
+# ls
+    ls
+O comando `ls` no Bash é usado para listar arquivos e diretórios dentro de um diretório. Quando você executa `ls`, ele exibe os arquivos e pastas presentes no diretório atual, ou em um diretório especificado.
+
+### ls -l
+    ls -l
+Mostra uma listagem detalhada, incluindo permissões, número de links, proprietário, tamanho, e data/hora da última modificação.
+#
+
+### ls -a
+    ls -a
+Lista todos os arquivos, incluindo os arquivos ocultos (aqueles que começam com um ponto .).
+#
+
+### ls -lh
+    ls -lh
+Mostra a listagem detalhada com o tamanho dos arquivos em um formato legível (com unidades como KB, MB, etc.).
+#
+
+# pwd
+    pwd
+O comando pwd no Bash significa "print working directory" (imprimir diretório de trabalho). ***Ele exibe o caminho completo do diretório atual em que você está*** no terminal.
+Exemplo:
+
+    /home/usuario/documentos
+
+# cd
+    cd /
+O comando cd no Bash significa "change directory" (mudar diretório). Ele é usado para navegar entre diretórios no sistema de arquivos.
+
+    cd [diretório]
+***Muda para o diretório especificado.***
+
+- Exemplo: `cd /home/usuario/documentos` vai mudar para o diretório `/home/usuario/documentos`.
+#
+
+    cd ..
+***Sobe um nível na hierarquia de diretórios.***
+
+- Exemplo: Se você estiver em `/home/usuario/documentos`, ao digitar `cd ..`, você irá para `/home/usuario`.
+#
+
+    cd ~
+***Vai diretamente para o diretório home do usuário.***
+
+- Exemplo: cd ~ leva você ao seu diretório home, como `/home/usuario`.
+#
+
+    cd -
+***Volta para o último diretório em que você estava antes de mudar.***
+- Exemplo: Se você estava em `/var/log` e mudou para `/home/usuario`, ao executar `cd -`, você volta para `/var/log`.
+#
+
+
+# echo
+    echo
+O comando `echo` no Bash é usado para ***exibir uma mensagem ou o valor de uma variável no terminal.*** Ele simplesmente imprime o texto ou a informação que você passar como argumento.
+#
+
+# Parâmetros
+### verbose
+    -v
+O parâmetro `-v` no Bash geralmente significa "verbose" (detalhado). ***Ele é usado para fazer com que um comando forneça mais informações sobre o que está fazendo***, ou seja, exiba saídas mais detalhadas durante sua execução.
+#
+
+# Cores comuns no Bash:
+- Azul: ***Diretórios.***
+- Verde: ***Arquivos executáveis*** (programas ou scripts com permissão de execução).
+- Ciano (azul claro): ***Links simbólicos*** (atalhos para arquivos ou diretórios).
+- Roxo: ***Arquivos compactados ou arquivos de imagem de disco*** (como `.tar, .gz, .zip, .iso`).
+- Vermelho: ***Arquivos com permissão de execução especial*** (`setuid, setgid, sticky bit`) ***ou arquivos com erros de permissões.***
+- Amarelo: ***Dispositivos*** (arquivos especiais, como dispositivos de bloco ou caracteres, por exemplo, `/dev/sda`).
+- Cinza claro: ***Arquivos normais***(sem atributos especiais).
+
+
 echo
 
 git clone
