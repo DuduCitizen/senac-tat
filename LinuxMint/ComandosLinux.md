@@ -52,3 +52,6 @@ marca texto verde - perigo
 azul claro - atalho
 -v
 echo
+
+git clone
+git config
