@@ -145,3 +145,10 @@ Exemplos de uso:
 ">"
 ">>"
 
+
+head
+tail
+cat
+tac
+less
+
