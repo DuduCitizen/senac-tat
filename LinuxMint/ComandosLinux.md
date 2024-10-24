@@ -137,6 +137,11 @@ Exemplos de uso:
 
         git config --global user.email "seuemail@exemplo.com"
 
-- Verificar confiurações
+- Verificar configurações
 
         git config --list
+#
+
+">"
+">>"
+
