@@ -151,4 +151,6 @@ tail
 cat
 tac
 less
-
+cp
+mv
+rm
