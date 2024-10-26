@@ -182,7 +182,10 @@ O comando `mv` no Linux é usado para mover ou renomear arquivos e diretórios. 
 O comando `rm` no Linux é usado para remover (deletar) arquivos e diretórios. Ele exclui permanentemente os itens especificados, com a opção `-r` para remover diretórios e seus conteúdos recursivamente.
 #
 
-">"
+# >
+    >
+O operador `>` no Linux redireciona a saída de um comando para um arquivo, substituindo seu conteúdo se ele já existir. É útil para criar arquivos ou salvar a saída de comandos específicos em um arquivo de texto. Por exemplo, `echo "Hello" > arquivo.txt` cria ou substitui `arquivo.txt` com o conteúdo "Hello".
+
 ">>"
 
 #
