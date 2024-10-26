@@ -144,15 +144,17 @@ Exemplos de uso:
 
 # head
     head
-O comando head no Linux exibe as primeiras linhas de um arquivo ou da saída de outro comando, por padrão mostrando as primeiras 10 linhas. Ele é útil para visualizar rapidamente o início de arquivos grandes sem abri-los completamente.
+O comando `head` no Linux exibe as primeiras linhas de um arquivo ou da saída de outro comando, por padrão mostrando as primeiras 10 linhas. Ele é útil para visualizar rapidamente o início de arquivos grandes sem abri-los completamente.
 #
 
-
+# tail
+    tail
+O comando `tail` no Linux exibe as últimas linhas de um arquivo ou da saída de outro comando, por padrão mostrando as últimas 10 linhas. Ele é comumente usado para monitorar arquivos de log em tempo real (com a opção `-f`).
 ">"
 ">>"
 
 
-tail
+
 cat
 tac
 less
