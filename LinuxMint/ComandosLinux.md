@@ -165,6 +165,11 @@ O comando `tac` no Linux exibe o conteúdo de um arquivo de forma invertida, mos
 # less
     less
 O comando `less` no Linux permite ***visualizar o conteúdo de um arquivo de forma interativa***, permitindo navegação fácil para cima e para baixo. Diferente do `cat`, ele carrega o arquivo de forma paginada, o que é útil para ler arquivos grandes.
+#
+
+# cp
+    cp
+O comando `cp` no Linux copia arquivos e diretórios de um local para outro. Ele pode ser usado para duplicar arquivos, copiar pastas inteiras e preservar atributos dos arquivos (como permissões e data) com opções adicionais.
 ">"
 ">>"
 
@@ -172,7 +177,6 @@ O comando `less` no Linux permite ***visualizar o conteúdo de um arquivo de for
 
 
 
-cp
 mv
 rm
 
