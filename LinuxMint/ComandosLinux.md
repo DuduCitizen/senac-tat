@@ -175,14 +175,14 @@ O comando `cp` no Linux copia arquivos e diretórios de um local para outro. Ele
 # mv
     mv
 O comando `mv` no Linux é usado para mover ou renomear arquivos e diretórios. Ele transfere um arquivo de um local para outro ou altera seu nome, mantendo o conteúdo original intacto.
+#
+
+# rm
+    rm
+O comando `rm` no Linux é usado para remover (deletar) arquivos e diretórios. Ele exclui permanentemente os itens especificados, com a opção `-r` para remover diretórios e seus conteúdos recursivamente.
+#
+
 ">"
 ">>"
-
-
-
-
-
-mv
-rm
 
 #
