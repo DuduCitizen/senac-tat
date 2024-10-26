@@ -142,11 +142,16 @@ Exemplos de uso:
         git config --list
 #
 
+# head
+    head
+O comando head no Linux exibe as primeiras linhas de um arquivo ou da saída de outro comando, por padrão mostrando as primeiras 10 linhas. Ele é útil para visualizar rapidamente o início de arquivos grandes sem abri-los completamente.
+#
+
+
 ">"
 ">>"
 
 
-head
 tail
 cat
 tac
