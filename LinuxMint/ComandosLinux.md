@@ -160,13 +160,18 @@ O comando `cat` no Linux é usado para exibir o conteúdo de arquivos diretament
 # tac
     tac
 O comando `tac` no Linux exibe o conteúdo de um arquivo de forma invertida, mostrando as linhas de baixo para cima, ao contrário do `cat`. Ele é útil para visualizar a última parte de um arquivo primeiro, especialmente em arquivos longos ou logs.
+#
+
+# less
+    less
+O comando `less` no Linux permite ***visualizar o conteúdo de um arquivo de forma interativa***, permitindo navegação fácil para cima e para baixo. Diferente do `cat`, ele carrega o arquivo de forma paginada, o que é útil para ler arquivos grandes.
 ">"
 ">>"
 
 
 
 
-less
+
 cp
 mv
 rm
