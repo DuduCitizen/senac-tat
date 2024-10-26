@@ -155,14 +155,17 @@ O comando `tail` no Linux exibe as últimas linhas de um arquivo ou da saída de
 # cat
     cat
 O comando `cat` no Linux é usado para exibir o conteúdo de arquivos diretamente no terminal, unir vários arquivos em um só ou redirecionar o conteúdo de um arquivo para outro. Ele é útil para visualizar, criar ou combinar arquivos de texto.
+#
 
+# tac
+    tac
+O comando `tac` no Linux exibe o conteúdo de um arquivo de forma invertida, mostrando as linhas de baixo para cima, ao contrário do `cat`. Ele é útil para visualizar a última parte de um arquivo primeiro, especialmente em arquivos longos ou logs.
 ">"
 ">>"
 
 
 
 
-tac
 less
 cp
 mv
