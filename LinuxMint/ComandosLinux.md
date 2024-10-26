@@ -170,6 +170,11 @@ O comando `less` no Linux permite ***visualizar o conteúdo de um arquivo de for
 # cp
     cp
 O comando `cp` no Linux copia arquivos e diretórios de um local para outro. Ele pode ser usado para duplicar arquivos, copiar pastas inteiras e preservar atributos dos arquivos (como permissões e data) com opções adicionais.
+#
+
+# mv
+    mv
+O comando `mv` no Linux é usado para mover ou renomear arquivos e diretórios. Ele transfere um arquivo de um local para outro ou altera seu nome, mantendo o conteúdo original intacto.
 ">"
 ">>"
 
