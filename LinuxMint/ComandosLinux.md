@@ -150,12 +150,18 @@ O comando `head` no Linux exibe as primeiras linhas de um arquivo ou da saída d
 # tail
     tail
 O comando `tail` no Linux exibe as últimas linhas de um arquivo ou da saída de outro comando, por padrão mostrando as últimas 10 linhas. Ele é comumente usado para monitorar arquivos de log em tempo real (com a opção `-f`).
+#
+
+# cat
+    cat
+O comando `cat` no Linux é usado para exibir o conteúdo de arquivos diretamente no terminal, unir vários arquivos em um só ou redirecionar o conteúdo de um arquivo para outro. Ele é útil para visualizar, criar ou combinar arquivos de texto.
+
 ">"
 ">>"
 
 
 
-cat
+
 tac
 less
 cp
