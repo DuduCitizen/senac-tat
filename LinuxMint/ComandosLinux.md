@@ -191,3 +191,5 @@ O operador `>` no Linux redireciona a saída de um comando para um arquivo, subs
     >>
 O operador `>>` no Linux redireciona a saída de um comando para um arquivo, mas, ao contrário do `>`, ele anexa a saída ao final do arquivo em vez de substituir seu conteúdo. É útil para adicionar informações a um arquivo existente sem apagar os dados já presentes. Por exemplo, `echo "Hello" >> arquivo.txt` adiciona "Hello" ao final de `arquivo.txt`.
 #
+
+.
