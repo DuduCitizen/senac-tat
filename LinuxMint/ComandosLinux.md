@@ -186,7 +186,7 @@ O comando `rm` no Linux é usado para remover (deletar) arquivos e diretórios. 
     >
 O operador `>` no Linux redireciona a saída de um comando para um arquivo, substituindo seu conteúdo se ele já existir. É útil para criar arquivos ou salvar a saída de comandos específicos em um arquivo de texto. Por exemplo, `echo "Hello" > arquivo.txt` cria ou substitui `arquivo.txt` com o conteúdo "Hello".
 #
-..
+
 # >>
     >>
 O operador `>>` no Linux redireciona a saída de um comando para um arquivo, mas, ao contrário do `>`, ele anexa a saída ao final do arquivo em vez de substituir seu conteúdo. É útil para adicionar informações a um arquivo existente sem apagar os dados já presentes. Por exemplo, `echo "Hello" >> arquivo.txt` adiciona "Hello" ao final de `arquivo.txt`.
