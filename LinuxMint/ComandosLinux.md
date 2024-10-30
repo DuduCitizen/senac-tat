@@ -1,4 +1,3 @@
-...
 # sudo
     Sudo
 O comando `sudo` (superuser do) no Linux *permite que usuários executem comandos com privilégios de administrador `root`*. **Ele é usado para realizar tarefas que exigem permissões elevadas, como instalar software ou modificar configurações do sistema.**
